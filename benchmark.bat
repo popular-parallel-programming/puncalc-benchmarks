@@ -7,6 +7,7 @@ call git checkout origin/parallel
 call :benchmark %1 %2 logs\seq -n -t
 
 :: Parallel without thread local optimization
+echo WARNING: origin/parallel-no-thread is disabled!
 ::call git checkout origin/parallel-no-thread-local
 ::call :benchmark %1 %2 logs\no-thread-local
 
