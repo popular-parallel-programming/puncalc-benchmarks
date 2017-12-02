@@ -14,6 +14,6 @@ How to benchmark:
 
 | Branch                        | Purpose                                 |
 |-------------------------------|-----------------------------------------|
-| [origin/master](/tree/master) | For workflow changes and analysis code. |
-| [origin/i7](/tree/i7)         | For Intel i7 benchmark data.            |
-| [origin/xeon](/tree/xeon)     | For Intel Xeon benchmark data.          |
+| [origin/master](https://github.com/popular-parallel-programming/puncalc-benchmarks/tree/master) | For workflow changes and analysis code. |
+| [origin/i7](https://github.com/popular-parallel-programming/puncalc-benchmarks/tree/i7)         | For Intel i7 benchmark data.            |
+| [origin/xeon](https://github.com/popular-parallel-programming/puncalc-benchmarks/tree/xeon)     | For Intel Xeon benchmark data.          |
