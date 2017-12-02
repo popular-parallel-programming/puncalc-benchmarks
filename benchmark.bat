@@ -1,16 +1,17 @@
 @echo off
 if "%1" == "" goto :help
 if "%2" == "" goto :help
+if "%3" == "" goto :help
 
 call git checkout origin/parallel
 
 :: Sequential
-call :benchmark %1 %2 logs\seq -n
-call :benchmark %1 %2 logs\seq-local -n -l
+call :benchmark %1 %2 %3\seq -n
+call :benchmark %1 %2 %3\seq-local -n -l
 
 :: Parallel
-call :benchmark %1 %2 logs\par
-call :benchmark %1 %2 logs\par-local -l
+call :benchmark %1 %2 %3\par
+call :benchmark %1 %2 %3\par-local -l
 
 exit /b
 
@@ -20,6 +21,7 @@ echo   benchmark.bat path\to\sheets iterations
 echo.
 echo path\to\sheets - Path to a folder that contains XML spreadsheets.
 echo iterations     - Number of iterations to repeat.
+echo path\to\logs   - Path to a folder where log files will be stored.
 echo.
 
 :: Done
