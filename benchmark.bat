@@ -7,7 +7,7 @@ call git checkout origin/parallel
 
 :: Sequential
 call :benchmark %1 %2 %3\seq -n
-call :benchmark %1 %2 %3\seq-local -n -l
+::call :benchmark %1 %2 %3\seq-local -n -l
 
 :: Parallel
 call :benchmark %1 %2 %3\par
