@@ -1,0 +1,295 @@
+
+C:\Users\fbie\src\funcalc>msbuild /property:Configuration=Debug /t:Clean /m 
+Microsoft (R) Build Engine version 15.3.409.57025 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 04-01-2018 00:48:29.
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Clean target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+     1>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.09
+
+C:\Users\fbie\src\funcalc>msbuild /property:Configuration=Release /t:Clean /m 
+Microsoft (R) Build Engine version 15.3.409.57025 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 04-01-2018 00:48:31.
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Clean target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Release|Any CPU".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (5) on node 5 (Clean target(s)).
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Externals.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Externals.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csprojResolveAssemblyReference.cache".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csproj.CoreCompileInputs.cache".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (3) on node 2 (Clean target(s)).
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.dll".
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.pdb".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.pdb".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (2) on node 3 (Clean target(s)).
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\ClrTest.Reflection.ILReader.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.pdb".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\ClrTest.Reflection.ILVisualizer.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.Corecalc.dll".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.Corecalc.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.dll".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.dll".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (6) on node 6 (Clean target(s)).
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (4) on node 4 (Clean target(s)).
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.Corecalc.pdb".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.IO.dll".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.pdb".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.pdb".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.Corecalc.pdb".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.pdb".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csprojResolveAssemblyReference.cache".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csprojResolveAssemblyReference.cache".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.IO.pdb".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.Corecalc.dll".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csproj.CoreCompileInputs.cache".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csproj.CoreCompileInputs.cache".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.pdb".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.Corecalc.pdb".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.dll".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.csprojResolveAssemblyReference.cache".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csprojResolveAssemblyReference.cache".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.pdb".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.pdb".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.AboutBox.resources".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csproj.CoreCompileInputs.cache".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.dll".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.WorkbookForm.resources".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.pdb".
+     3>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.SdfForm.resources".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.csproj.GenerateResource.Cache".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.csproj.CoreCompileInputs.cache".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.pdb".
+     4>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (Clean target(s)).
+     5>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (Clean target(s)).
+     6>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (Clean target(s)).
+     2>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (Clean target(s)).
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.App\Funcalc.App.csproj" (7) on node 1 (Clean target(s)).
+     7>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.App.exe.config".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.App.exe".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.App.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.Corecalc.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.GUI.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.IO.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\ClrTest.Reflection.ILVisualizer.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\ClrTest.Reflection.ILReader.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.Corecalc.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.GUI.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.IO.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.csprojResolveAssemblyReference.cache".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.csproj.CoreCompileInputs.cache".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.exe".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.pdb".
+     3>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (Clean target(s)).
+     7>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.App\Funcalc.App.csproj" (Clean target(s)).
+     1>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+C:\Users\fbie\src\funcalc>call %command% 
+Microsoft (R) Build Engine version 15.3.409.57025 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 04-01-2018 00:48:32.
+Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Rebuild target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|Any CPU".
+Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (2) on node 1 (Rebuild target(s)).
+Project "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (2) is building "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (3:3) on node 1 (default targets).
+Project "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (3:3) is building "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (4:3) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /langversion:7.1 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.Linq.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\Funcalc.Externals.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7.1 Properties\AssemblyInfo.cs TestExtern.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\Funcalc.Externals.dll" to "..\Funcalc.App\bin\Release\external\Funcalc.Externals.dll".
+  Funcalc.Externals -> C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll
+  Copying file from "obj\Release\Funcalc.Externals.pdb" to "..\Funcalc.App\bin\Release\external\Funcalc.Externals.pdb".
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /langversion:7.1 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Management.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\Funcalc.Corecalc.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\AllRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7.1 Addressing\Adjusted.cs Addressing\CellAddr.cs Addressing\FullCellAddr.cs Addressing\Interval.cs Addressing\RARef.cs Addressing\SupportArea.cs Addressing\SupportCell.cs Addressing\SupportRange.cs Addressing\SupportSet.cs Cells\ArrayFormula.cs Cells\BlankCell.cs Cells\CachedArrayFormula.cs Cells\Cell.cs Cells\ConstCell.cs Cells\Formula.cs Cells\ICellEvaluator.cs Cells\NumberCell.cs Cells\QuoteCell.cs Cells\TextCell.cs Expressions\CellArea.cs Expressions\CellRef.cs Expressions\Const.cs Expressions\Error.cs Expressions\Expr.cs Expressions\FunCall.cs Expressions\IExpressionEvaluator.cs Expressions\NumberConst.cs Expressions\RefSet.cs Expressions\TextConst.cs Expressions\ValueConst.cs Functions\Applier.cs Functions\Function.cs Functions\Functions.cs Functions\NonStrictApplier.cs Functions\UndefinedApplier.cs Functions\VariadicApplier.cs FunType.cs Interpreter.cs Properties\AssemblyInfo.cs Sheet.cs Types.cs Values\ArrayDouble.cs Values\ArrayExplicit.cs Values\ArrayValue.cs Values\ArrayView.cs Values\EmptyValue.cs Values\ErrorValue.cs Values\NumberValue.cs Values\ObjectValue.cs Values\TextValue.cs Values\Value.cs Workbook.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll" to "bin\Release\Funcalc.Externals.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.pdb" to "bin\Release\Funcalc.Externals.pdb".
+  Touching "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csproj.CopyComplete".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\Funcalc.Corecalc.dll" to "bin\Release\Funcalc.Corecalc.dll".
+  Funcalc.Corecalc -> C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll
+  Copying file from "obj\Release\Funcalc.Corecalc.pdb" to "bin\Release\Funcalc.Corecalc.pdb".
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /langversion:7.1 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /debug:full /filealign:512 /optimize+ /out:obj\Release\Funcalc.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7.1 CellsInFuncs.cs CodeGen\CGAnd.cs CodeGen\CGApply.cs CodeGen\CGArithmetic1.cs CodeGen\CGArithmetic2.cs CodeGen\CGCachedExpr.cs CodeGen\CGCellRef.cs CodeGen\CGChoose.cs CodeGen\CGClosure.cs CodeGen\CGComparison.cs CodeGen\CGComposite.cs CodeGen\CGConst.cs CodeGen\CGEqual.cs CodeGen\CGError.cs CodeGen\CGExpr.cs CodeGen\CGExpressionBuilder.cs CodeGen\CGExtern.cs CodeGen\CGFunctionCall.cs CodeGen\CGGreaterThan.cs CodeGen\CGGreaterThanOrEqual.cs CodeGen\CGIf.cs CodeGen\CGLessThan.cs CodeGen\CGLessThanOrEqual.cs CodeGen\CGNeg.cs CodeGen\CGNormalCellArea.cs CodeGen\CGNormalCellRef.cs CodeGen\CGNot.cs CodeGen\CGNotEqual.cs CodeGen\CGNumberConst.cs CodeGen\CGOr.cs CodeGen\CGSdfCall.cs CodeGen\CGStrictOperation.cs CodeGen\CGTextConst.cs CodeGen\CGValueConst.cs CodeGen\CodeGenerate.cs CodeGen\ComputeCell.cs CodeGen\FunctionInfo.cs CodeGen\Gen.cs CodeGen\MethodLookup.cs CodeGen\PEnv.cs CodeGen\ProgramLines.cs CodeGen\UnwrapInputCell.cs DependencyGraph.cs FunctionValue.cs HigherOrderFunction.cs PathConditions.cs Properties\AssemblyInfo.cs Sdf\SdfInfo.cs Sdf\SdfManager.cs Sdf\SdfTypes.cs Sdf\SdfWorkbook.cs Variable.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
+CodeGen\CGSdfCall.cs(83,37): warning CS0219: The variable 'allStatic' is assigned but its value is never used [C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj]
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll" to "bin\Release\Funcalc.Corecalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb" to "bin\Release\Funcalc.Corecalc.pdb".
+  Touching "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csproj.CopyComplete".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\Funcalc.dll" to "bin\Release\Funcalc.dll".
+  Funcalc -> C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll
+  Copying file from "obj\Release\Funcalc.pdb" to "bin\Release\Funcalc.pdb".
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (Rebuild target(s)).
+Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (5) on node 1 (Rebuild target(s)).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /langversion:7.1 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll /reference:C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.dll" /debug:full /filealign:512 /optimize+ /out:obj\Release\Funcalc.IO.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7.1 CellToXML.cs Coco\Parser.cs Coco\Scanner.cs IOFormat.cs Properties\AssemblyInfo.cs WorkBookIO.cs XMLSSIOFormat.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
+CellToXML.cs(47,48): warning CS0168: The variable 'e' is declared but never used [C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj]
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll" to "bin\Release\Funcalc.Corecalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll" to "bin\Release\Funcalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb" to "bin\Release\Funcalc.Corecalc.pdb".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.pdb" to "bin\Release\Funcalc.pdb".
+  Touching "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csproj.CopyComplete".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\Funcalc.IO.dll" to "bin\Release\Funcalc.IO.dll".
+  Funcalc.IO -> C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll
+  Copying file from "obj\Release\Funcalc.IO.pdb" to "bin\Release\Funcalc.IO.pdb".
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (Rebuild target(s)).
+Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (6) on node 1 (Rebuild target(s)).
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\resgen.exe" /useSourcePath /r:C:\Users\fbie\src\funcalc\dlls\ClrTest.Reflection.ILReader.dll /r:C:\Users\fbie\src\funcalc\dlls\ClrTest.Reflection.ILVisualizer.dll /r:C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll /r:C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll /r:C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.dll" /compile AboutBox.resx,obj\Release\Funcalc.GUI.AboutBox.resources GUI.resx,obj\Release\Funcalc.GUI.WorkbookForm.resources SDF.resx,obj\Release\Funcalc.GUI.SdfForm.resources
+  Processing resource file "AboutBox.resx" into "obj\Release\Funcalc.GUI.AboutBox.resources".
+  Processing resource file "GUI.resx" into "obj\Release\Funcalc.GUI.WorkbookForm.resources".
+  Processing resource file "SDF.resx" into "obj\Release\Funcalc.GUI.SdfForm.resources".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /langversion:7.1 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:C:\Users\fbie\src\funcalc\dlls\ClrTest.Reflection.ILReader.dll /reference:C:\Users\fbie\src\funcalc\dlls\ClrTest.Reflection.ILVisualizer.dll /reference:C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll /reference:C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll /reference:C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.dll" /debug:full /filealign:512 /optimize+ /out:obj\Release\Funcalc.GUI.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /resource:obj\Release\Funcalc.GUI.AboutBox.resources /resource:obj\Release\Funcalc.GUI.WorkbookForm.resources /resource:obj\Release\Funcalc.GUI.SdfForm.resources /target:library /utf8output /langversion:7.1 AboutBox.cs AboutBox.Designer.cs Benchmarks\Benchmarks.cs GUI.cs GUI.Designer.cs Prompt.cs Properties\AssemblyInfo.cs SDF.cs SDF.Designer.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\fbie\src\funcalc\dlls\ClrTest.Reflection.ILReader.dll" to "bin\Release\ClrTest.Reflection.ILReader.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\dlls\ClrTest.Reflection.ILVisualizer.dll" to "bin\Release\ClrTest.Reflection.ILVisualizer.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll" to "bin\Release\Funcalc.Corecalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll" to "bin\Release\Funcalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll" to "bin\Release\Funcalc.IO.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb" to "bin\Release\Funcalc.Corecalc.pdb".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.pdb" to "bin\Release\Funcalc.IO.pdb".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.pdb" to "bin\Release\Funcalc.pdb".
+  Touching "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.csproj.CopyComplete".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\Funcalc.GUI.dll" to "bin\Release\Funcalc.GUI.dll".
+  Funcalc.GUI -> C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.dll
+  Copying file from "obj\Release\Funcalc.GUI.pdb" to "bin\Release\Funcalc.GUI.pdb".
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (Rebuild target(s)).
+Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.App\Funcalc.App.csproj" (7) on node 1 (Rebuild target(s)).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /langversion:7.1 /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll /reference:C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll /reference:C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.dll /reference:C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Windows.Forms.dll" /debug:full /filealign:512 /optimize+ /out:obj\Release\Funcalc.App.exe /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:exe /utf8output /langversion:7.1 Program.cs Properties\AssemblyInfo.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll" to "bin\Release\Funcalc.Corecalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll" to "bin\Release\Funcalc.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.dll" to "bin\Release\Funcalc.GUI.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll" to "bin\Release\Funcalc.IO.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\ClrTest.Reflection.ILVisualizer.dll" to "bin\Release\ClrTest.Reflection.ILVisualizer.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\ClrTest.Reflection.ILReader.dll" to "bin\Release\ClrTest.Reflection.ILReader.dll".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb" to "bin\Release\Funcalc.Corecalc.pdb".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.pdb" to "bin\Release\Funcalc.GUI.pdb".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.pdb" to "bin\Release\Funcalc.IO.pdb".
+  Copying file from "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.pdb" to "bin\Release\Funcalc.pdb".
+  Touching "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.csproj.CopyComplete".
+_CopyAppConfigFile:
+  Copying file from "App.config" to "bin\Release\Funcalc.App.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\Funcalc.App.exe" to "bin\Release\Funcalc.App.exe".
+  Funcalc.App -> C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\Funcalc.App.exe
+  Copying file from "obj\Release\Funcalc.App.pdb" to "bin\Release\Funcalc.App.pdb".
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.App\Funcalc.App.csproj" (Rebuild target(s)).
+Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (Rebuild target(s)).
+
+Build succeeded.
+
+"C:\Users\fbie\src\funcalc\Funcalc.sln" (Rebuild target) (1) ->
+"C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (Rebuild target) (2) ->
+(CoreCompile target) -> 
+  CodeGen\CGSdfCall.cs(83,37): warning CS0219: The variable 'allStatic' is assigned but its value is never used [C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj]
+
+
+"C:\Users\fbie\src\funcalc\Funcalc.sln" (Rebuild target) (1) ->
+"C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (Rebuild target) (5) ->
+  CellToXML.cs(47,48): warning CS0168: The variable 'e' is declared but never used [C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj]
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.10
+
+msbuild /p:Configuration=Release /p:Constants="LOCAL;" /t:Rebuild /m:1
+
+Configuration: Release
+Flags:  LOCAL
