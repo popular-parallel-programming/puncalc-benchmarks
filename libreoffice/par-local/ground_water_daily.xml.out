@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\ground_water_daily.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\ground_water_daily.xml
+roots     	 4926,9669ms	1
+roots     	 4864,5917ms	2
+roots     	 4816,8803ms	3
+roots     	 4786,2361ms	4
+roots     	 4898,4867ms	5
+roots     	 4899,7154ms	6
+roots     	 4745,0540ms	7
+roots     	 4353,1900ms	8
+roots     	 4250,4738ms	9
+roots     	 4220,6601ms	10

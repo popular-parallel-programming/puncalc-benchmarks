@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\stocks_price_time_correlation.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\stocks_price_time_correlation.xml
+roots     	261027,6534ms	1
+roots     	261214,0066ms	2
+roots     	261489,8603ms	3
+roots     	261489,3818ms	4
+roots     	261874,9024ms	5
+roots     	261546,6939ms	6
+roots     	261507,3756ms	7
+roots     	261408,4995ms	8
+roots     	261316,5683ms	9
+roots     	261246,9498ms	10

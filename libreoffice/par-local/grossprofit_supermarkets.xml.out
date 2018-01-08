@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\grossprofit_supermarkets.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\grossprofit_supermarkets.xml
+roots     	372017,2202ms	1
+roots     	399587,3794ms	2
+roots     	399632,9575ms	3
+roots     	399507,0531ms	4
+roots     	399605,3212ms	5
+roots     	399661,3649ms	6
+roots     	399538,1302ms	7
+roots     	399720,3153ms	8
+roots     	399747,0371ms	9
+roots     	400517,4906ms	10

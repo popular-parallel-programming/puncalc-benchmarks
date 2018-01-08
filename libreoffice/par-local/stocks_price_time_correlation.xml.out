@@ -1,0 +1,13 @@
+
+C:\Users\sestoft\Funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\sestoft\funcalc-examples\benchmarks\libreoffice_spreadsheets\stocks_price_time_correlation.xml" 
+#benchmark:roots iterations:10 file:C:\Users\sestoft\funcalc-examples\benchmarks\libreoffice_spreadsheets\stocks_price_time_correlation.xml cores:32
+roots     	745668,0377ms	1
+roots     	746726,3261ms	2
+roots     	742437,2981ms	3
+roots     	745774,7796ms	4
+roots     	744826,6527ms	5
+roots     	745216,6287ms	6
+roots     	744754,8499ms	7
+roots     	743682,0594ms	8
+roots     	736822,8585ms	9
+roots     	741413,3081ms	10
