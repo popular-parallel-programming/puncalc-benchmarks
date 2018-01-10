@@ -23,27 +23,26 @@ let readFiles path =
     |> Seq.toList
 
 // Compute mean and standard deviation
-let meanAndSdev (mss : float<ms> list) =
-    let n    = double <| List.length mss
-    let mean = List.average mss
-    let sst  = List.map (fun x -> x * x) >> List.sum <| mss
-    mean, sqrt ((sst - mean * mean * n) / (n - 1.0))
+let sdev xs =
+    let n    = double <| List.length xs
+    let mean = List.average xs
+    let sst  = List.map (fun x -> x * x) >> List.sum <| xs
+    float <| sqrt ((sst - mean * mean * n) / (n - 1.0))
 
 // Compare a baseline result to another result.
 let compare baseline other =
-    let baselineResults = readFiles baseline |> Seq.map (fun (f, mss) -> f, meanAndSdev mss)
-    let otherResults    = readFiles other    |> Seq.map (fun (f, mss) -> f, meanAndSdev mss)
-    Seq.map2 (fun (f, (bsm, bss)) (_, (osm, oss)) -> f, bsm / osm) // TODO: Compute stdev
-             baselineResults
-             otherResults
+    let baselineMeans = readFiles baseline |> List.map (fun (f, mss) -> f, List.average mss)
+    let otherResults  = readFiles other
+    List.map2 (fun (f, bm) (_, ors) -> f, bm / List.average ors, sdev <| List.map (fun x -> bm / x) ors)
+              baselineMeans
+              otherResults
 
 match fsi.CommandLineArgs with
     | [| _; baseline; other|] ->
-        printfn "# Comparing %s to %s:" other baseline
+        printfn "# Speedup of %s over %s:" other baseline
         for result in compare baseline other do
-            printfn "%-30s%f" <|| result
+            printfn "%-30s %10f %10f" <||| result
         0
     | _ ->
-        printfn "%A" fsi.CommandLineArgs;
         printfn "Usage: > fsi analyze.fsx path/to/baseline/folder path/to/other/folder";
         1
