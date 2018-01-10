@@ -17,7 +17,7 @@ exit /b
 
 :help
 echo Usage:
-echo   benchmark.bat path\to\sheets iterations
+echo   benchmark.bat path\to\sheets iterations path\to\logs
 echo.
 echo path\to\sheets - Path to a folder that contains XML spreadsheets.
 echo iterations     - Number of iterations to repeat.
