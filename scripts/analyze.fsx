@@ -39,7 +39,7 @@ let compare baseline other =
 
 match fsi.CommandLineArgs with
     | [| _; baseline; other|] ->
-        printfn "# Comparing %s to %s:" other baseline
+        printfn "# Speedup of %s over %s:" other baseline
         for result in compare baseline other do
             printfn "%-30s %10f %10f" <||| result
         0
