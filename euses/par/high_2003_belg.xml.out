@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\database\processed\high_2003_belg.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\database\processed\high_2003_belg.xml cores:4
+roots     	  438,7241ms	1
+roots     	  438,7677ms	2
+roots     	  441,7912ms	3
+roots     	  436,2717ms	4
+roots     	  435,9011ms	5
+roots     	  435,6136ms	6
+roots     	  435,9143ms	7
+roots     	  436,1646ms	8
+roots     	  440,5710ms	9
+roots     	  436,8166ms	10

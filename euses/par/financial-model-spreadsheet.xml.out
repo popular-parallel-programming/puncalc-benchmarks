@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\financial\processed\financial-model-spreadsheet.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\financial\processed\financial-model-spreadsheet.xml cores:4
+roots     	 3252,8949ms	1
+roots     	   39,9618ms	2
+roots     	    4,4059ms	3
+roots     	  575,6109ms	4
+roots     	    3,7390ms	5
+roots     	  436,6119ms	6
+roots     	    2,6026ms	7
+roots     	 3443,4026ms	8
+roots     	12638,0090ms	9
+roots     	 2315,6576ms	10

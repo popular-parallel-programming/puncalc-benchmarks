@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\grades\processed\2002Qvols.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\grades\processed\2002Qvols.xml cores:4
+roots     	    2,8745ms	1
+roots     	    4,8262ms	2
+roots     	    3,9145ms	3
+roots     	    3,1701ms	4
+roots     	    3,0544ms	5
+roots     	    3,2896ms	6
+roots     	    2,9669ms	7
+roots     	    3,0412ms	8
+roots     	   43,5441ms	9
+roots     	    3,4409ms	10

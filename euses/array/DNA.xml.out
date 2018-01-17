@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\filby\processed\DNA.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\filby\processed\DNA.xml cores:4
+roots     	   14,3150ms	1
+roots     	   13,6145ms	2
+roots     	   14,5577ms	3
+roots     	   12,1829ms	4
+roots     	   15,8588ms	5
+roots     	   14,4006ms	6
+roots     	   11,7528ms	7
+roots     	   11,4893ms	8
+roots     	   12,1412ms	9
+roots     	   11,7167ms	10

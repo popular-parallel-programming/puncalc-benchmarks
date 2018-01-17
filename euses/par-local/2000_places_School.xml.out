@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\grades\processed\2000_places_School.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\grades\processed\2000_places_School.xml cores:4
+roots     	    1,7643ms	1
+roots     	    1,8850ms	2
+roots     	    1,9209ms	3
+roots     	    1,8066ms	4
+roots     	    1,6228ms	5
+roots     	    1,6192ms	6
+roots     	    1,6707ms	7
+roots     	    1,8519ms	8
+roots     	    2,1768ms	9
+roots     	    6,2431ms	10

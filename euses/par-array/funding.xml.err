@@ -1,0 +1,6 @@
+Setting EvalCond[@Goalseek!C24] = (CACHE#58[@Goalseek!D24<=0] || NOT(CACHE#59[@Goalseek!D24<=0]))
+Rebuilding support graph
+Range AppendixPriceIndex!B5:B84 circular due to AppendixPriceIndex!B14 by cell.
+ERROR: Cannot convert a cell array that references a cell area.
+Lifted 631 intransitive, 0 transitive array cells.
+Read XMLSS, 3406 cells of which 1118 unique in 245 ms

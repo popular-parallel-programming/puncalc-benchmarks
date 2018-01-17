@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\homework\processed\notes5CMISB200SP04H2KEY.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\homework\processed\notes5CMISB200SP04H2KEY.xml cores:4
+roots     	   10,5197ms	1
+roots     	   14,4258ms	2
+roots     	   11,0702ms	3
+roots     	   12,9740ms	4
+roots     	   11,8511ms	5
+roots     	   13,0255ms	6
+roots     	   12,1102ms	7
+roots     	   18,1082ms	8
+roots     	   14,3301ms	9
+roots     	   13,6060ms	10

@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\homework\processed\v1tmp.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\homework\processed\v1tmp.xml cores:4
+roots     	    1,0808ms	1
+roots     	    0,9823ms	2
+roots     	    0,8455ms	3
+roots     	    0,9979ms	4
+roots     	    1,0481ms	5
+roots     	    1,0755ms	6
+roots     	    1,0726ms	7
+roots     	    1,5643ms	8
+roots     	    1,0707ms	9
+roots     	    3,5287ms	10

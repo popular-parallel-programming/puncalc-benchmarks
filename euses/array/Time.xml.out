@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\inventory\processed\Time.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\inventory\processed\Time.xml cores:4
+roots     	    7,1865ms	1
+roots     	    6,7675ms	2
+roots     	    5,2319ms	3
+roots     	    6,6680ms	4
+roots     	    6,2233ms	5
+roots     	    7,5675ms	6
+roots     	    7,6322ms	7
+roots     	    8,3114ms	8
+roots     	    7,9457ms	9
+roots     	    7,8655ms	10

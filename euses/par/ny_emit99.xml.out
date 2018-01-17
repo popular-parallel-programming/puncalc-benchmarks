@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\inventory\processed\ny_emit99.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\inventory\processed\ny_emit99.xml cores:4
+roots     	   13,6866ms	1
+roots     	   10,8261ms	2
+roots     	   11,4034ms	3
+roots     	   11,7450ms	4
+roots     	   13,9835ms	5
+roots     	   12,6146ms	6
+roots     	   10,6858ms	7
+roots     	   11,9300ms	8
+roots     	   14,9733ms	9
+roots     	   12,6587ms	10

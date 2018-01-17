@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\financial\processed\02rise.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\financial\processed\02rise.xml cores:4
+roots     	   18,9900ms	1
+roots     	   16,7840ms	2
+roots     	   24,7182ms	3
+roots     	   17,4156ms	4
+roots     	   17,4270ms	5
+roots     	   15,8877ms	6
+roots     	   25,0879ms	7
+roots     	   17,3739ms	8
+roots     	   18,5271ms	9
+roots     	   20,2385ms	10

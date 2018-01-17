@@ -1,0 +1,3 @@
+Setting EvalCond[@Goalseek!C24] = (CACHE#58[@Goalseek!D24<=0] || NOT(CACHE#59[@Goalseek!D24<=0]))
+Rebuilding support graph
+Read XMLSS, 3406 cells of which 1118 unique in 205 ms

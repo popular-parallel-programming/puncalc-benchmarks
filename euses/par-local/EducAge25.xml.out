@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\grades\processed\EducAge25.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\grades\processed\EducAge25.xml cores:4
+roots     	    4,6183ms	1
+roots     	    4,2041ms	2
+roots     	    4,1756ms	3
+roots     	    4,3349ms	4
+roots     	    4,4008ms	5
+roots     	    4,6044ms	6
+roots     	    4,5998ms	7
+roots     	    4,7276ms	8
+roots     	    4,0558ms	9
+roots     	    4,0543ms	10

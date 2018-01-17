@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\database\processed\2004_PUBLIC_BUGS_INVENTORY.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\database\processed\2004_PUBLIC_BUGS_INVENTORY.xml cores:4
+roots     	   10,7417ms	1
+roots     	   10,2687ms	2
+roots     	    9,2114ms	3
+roots     	   11,4365ms	4
+roots     	   13,6661ms	5
+roots     	   13,6467ms	6
+roots     	   12,1564ms	7
+roots     	   11,1998ms	8
+roots     	   11,3522ms	9
+roots     	   10,8686ms	10

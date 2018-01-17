@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\inventory\processed\WasteCalendarCalculat#A843B.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\inventory\processed\WasteCalendarCalculat#A843B.xml cores:4
+roots     	    1,4598ms	1
+roots     	    1,7026ms	2
+roots     	    1,6823ms	3
+roots     	    1,7599ms	4
+roots     	    1,6549ms	5
+roots     	    1,8488ms	6
+roots     	    2,6002ms	7
+roots     	    1,6051ms	8
+roots     	    1,6352ms	9
+roots     	    2,0720ms	10

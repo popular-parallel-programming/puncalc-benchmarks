@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\homework\processed\Test20Station20Powe#A90F3.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\homework\processed\Test20Station20Powe#A90F3.xml cores:4
+roots     	    2,2259ms	1
+roots     	    2,3023ms	2
+roots     	    2,1161ms	3
+roots     	    2,1972ms	4
+roots     	    2,2336ms	5
+roots     	    2,2676ms	6
+roots     	    2,2654ms	7
+roots     	    2,3827ms	8
+roots     	    2,9130ms	9
+roots     	    2,1525ms	10

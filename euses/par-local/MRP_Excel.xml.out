@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\inventory\processed\MRP_Excel.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\inventory\processed\MRP_Excel.xml cores:4
+roots     	   16,7197ms	1
+roots     	   17,3862ms	2
+roots     	   15,3829ms	3
+roots     	   13,8744ms	4
+roots     	   21,9355ms	5
+roots     	   24,0110ms	6
+roots     	   19,9673ms	7
+roots     	   15,5859ms	8
+roots     	   25,0935ms	9
+roots     	   16,0073ms	10

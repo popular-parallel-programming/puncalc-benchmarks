@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\modeling\processed\funding.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\modeling\processed\funding.xml cores:4
+roots     	    3,9531ms	1
+roots     	    3,1115ms	2
+roots     	    3,1450ms	3
+roots     	    2,7246ms	4
+roots     	    3,1246ms	5
+roots     	    3,4988ms	6
+roots     	    3,9871ms	7
+roots     	    2,1931ms	8
+roots     	    6,2975ms	9
+roots     	    3,7080ms	10

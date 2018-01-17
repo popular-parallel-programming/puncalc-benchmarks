@@ -1,0 +1,5 @@
+commit 8ea8da9dc715a1615c897694fa52aad23c9aad9e
+Author: Florian Biermann <fbie@itu.dk>
+Date:   Wed Jan 17 12:37:09 2018 +0100
+
+    Use queues to maintain left work in detection algorithm

@@ -1,0 +1,13 @@
+Rebuilding support graph
+Range Ranking!C2:C101 circular due to Ranking!C2 by cell.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+ERROR: Cannot convert a cell array that references a cell area.
+Lifted 4429 intransitive, 99 transitive array cells.
+Read XMLSS, 29755 cells of which 4751 unique in 1325 ms

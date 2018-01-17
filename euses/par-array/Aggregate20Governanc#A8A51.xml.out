@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\database\processed\Aggregate20Governanc#A8A51.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\database\processed\Aggregate20Governanc#A8A51.xml cores:4
+roots     	  263,3040ms	1
+roots     	  272,3804ms	2
+roots     	  240,6801ms	3
+roots     	  243,8554ms	4
+roots     	  225,9732ms	5
+roots     	  227,8897ms	6
+roots     	  237,6221ms	7
+roots     	  239,2146ms	8
+roots     	  241,7431ms	9
+roots     	  239,7844ms	10

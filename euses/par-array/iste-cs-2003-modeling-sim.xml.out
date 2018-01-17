@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\modeling\processed\iste-cs-2003-modeling-sim.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\modeling\processed\iste-cs-2003-modeling-sim.xml cores:4
+roots     	    2,2605ms	1
+roots     	    1,9854ms	2
+roots     	    4,1163ms	3
+roots     	    2,3016ms	4
+roots     	    1,9383ms	5
+roots     	    1,9764ms	6
+roots     	    1,9582ms	7
+roots     	    1,9762ms	8
+roots     	    1,9810ms	9
+roots     	    1,9833ms	10

@@ -1,0 +1,13 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-euses\filby\processed\PLANCK.xml" 
+#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-euses\filby\processed\PLANCK.xml cores:4
+roots     	    1,7341ms	1
+roots     	    1,7413ms	2
+roots     	    2,2389ms	3
+roots     	    4,0917ms	4
+roots     	    2,6879ms	5
+roots     	    2,8709ms	6
+roots     	    2,3463ms	7
+roots     	    6,8046ms	8
+roots     	    3,1744ms	9
+roots     	    1,4248ms	10

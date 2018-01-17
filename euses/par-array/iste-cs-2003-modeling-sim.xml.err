@@ -1,0 +1,8 @@
+Rebuilding support graph
+Range Two!C4:L23 circular due to Two!C4 by cell.
+Range Two.B!C4:L23 circular due to Two.B!C4 by cell.
+Range Three!C4:L23 circular due to Three!C4 by cell.
+Range Four!C4:L23 circular due to Four!C4 by cell.
+Range Five!C4:L23 circular due to Five!C4 by cell.
+Lifted 400 intransitive, 0 transitive array cells.
+Read XMLSS, 2381 cells of which 248 unique in 219 ms
