@@ -33,9 +33,16 @@ let sdev xs =
 let compare baseline other =
     let baselineMeans = readFiles baseline |> List.map (fun (f, mss) -> f, List.average mss)
     let otherResults  = readFiles other
-    List.map2 (fun (f, bm) (_, ors) -> f, bm / List.average ors, sdev <| List.map (fun x -> bm / x) ors)
-              baselineMeans
-              otherResults
+    baselineMeans
+    |> List.map (fun (name, bm) ->
+                 let _, ors = List.find (fst >> (=) name) otherResults in
+                 match ors with
+                 | [] -> None
+                 | ors -> Some (name,
+                                bm / List.average ors,
+                                sdev <| List.map (fun x -> bm / x) ors))
+    |> List.choose id
+
 
 match fsi.CommandLineArgs with
     | [| _; baseline; other|] ->
