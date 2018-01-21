@@ -3,7 +3,7 @@ C:\Users\fbie\src\funcalc>msbuild /property:Configuration=Debug /t:Clean /m
 Microsoft (R) Build Engine version 15.3.409.57025 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 02-12-2017 11:24:38.
+Build started 18-01-2018 16:17:51.
      1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Clean target(s)).
      1>ValidateSolutionConfiguration:
          Building solution configuration "Debug|Any CPU".
@@ -13,39 +13,30 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.40
+Time Elapsed 00:00:00.90
 
 C:\Users\fbie\src\funcalc>msbuild /property:Configuration=Release /t:Clean /m 
 Microsoft (R) Build Engine version 15.3.409.57025 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 02-12-2017 11:24:41.
+Build started 18-01-2018 16:17:52.
      1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Clean target(s)).
      1>ValidateSolutionConfiguration:
          Building solution configuration "Release|Any CPU".
-     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (2) on node 4 (Clean target(s)).
-     2>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.pdb".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csprojResolveAssemblyReference.cache".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csproj.CoreCompileInputs.cache".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.dll".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.pdb".
-     2>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (Clean target(s)).
      1>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (Clean target(s)).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.95
+Time Elapsed 00:00:00.84
 
 C:\Users\fbie\src\funcalc>call %command% 
 Microsoft (R) Build Engine version 15.3.409.57025 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
 Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
-Build started 02-12-2017 11:24:42.
+Build started 18-01-2018 16:17:54.
 Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Rebuild target(s)).
 ValidateSolutionConfiguration:
   Building solution configuration "Release|Any CPU".
@@ -177,7 +168,7 @@ Build succeeded.
     2 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:07.87
+Time Elapsed 00:00:02.62
 
 msbuild /p:Configuration=Release /p:Constants="NOPARALLEL;" /t:Rebuild /m:1
 

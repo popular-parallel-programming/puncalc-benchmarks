@@ -1,5 +1,5 @@
-commit dbf8ded5186f739d93b7765254a2f5347f479f63
+commit af6f04ba12dd21e0baa9aeb8f091abbe3e89842a
 Author: Florian Biermann <fbie@itu.dk>
-Date:   Mon Dec 4 16:29:05 2017 +0100
+Date:   Thu Dec 21 16:51:26 2017 +0100
 
-    Cache RecalculationRoots
+    Increase fairness by moving preprocessive directives

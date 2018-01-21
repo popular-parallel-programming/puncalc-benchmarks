@@ -1,7 +1,5 @@
-commit c104f2b4fd77aa718ca3d65e931ddef4b65497fb
+commit af6f04ba12dd21e0baa9aeb8f091abbe3e89842a
 Author: Florian Biermann <fbie@itu.dk>
-Date:   Thu Dec 21 18:17:31 2017 +0100
+Date:   Thu Dec 21 16:51:26 2017 +0100
 
-    Revert "Implement a custom thread pool for recalculation"
-    
-    This reverts commit f226e3cfca11511505f82159812fd0017f9f2545.
+    Increase fairness by moving preprocessive directives

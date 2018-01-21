@@ -1,5 +1,5 @@
-commit 8575f2714eae0e92e5f9ebd56cabe880dc503c0a
+commit af6f04ba12dd21e0baa9aeb8f091abbe3e89842a
 Author: Florian Biermann <fbie@itu.dk>
-Date:   Thu Nov 30 16:31:32 2017 +0100
+Date:   Thu Dec 21 16:51:26 2017 +0100
 
-    Use non-concurrent queue when compiling with NOPARALLEL
+    Increase fairness by moving preprocessive directives

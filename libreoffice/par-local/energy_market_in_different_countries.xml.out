@@ -1,13 +1,8 @@
 
-C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml" 
-#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml
-roots     	437439,1325ms	1
-roots     	439283,9894ms	2
-roots     	440721,2435ms	3
-roots     	433053,5920ms	4
-roots     	438008,2934ms	5
-roots     	455666,0841ms	6
-roots     	421249,1960ms	7
-roots     	441474,2764ms	8
-roots     	436599,1147ms	9
-roots     	431529,2680ms	10
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml" 
+#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml cores:32
+roots     	431409,5377ms	1
+roots     	420352,2737ms	2
+roots     	429631,1242ms	3
+roots     	427353,3444ms	4
+roots     	427824,6874ms	5
