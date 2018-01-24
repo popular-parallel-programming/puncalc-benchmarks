@@ -1,0 +1,5 @@
+commit e1a2581e2bf98831627802f32be1c1cef04ad51f
+Author: Florian Biermann <fbie@itu.dk>
+Date:   Tue Jan 23 15:14:52 2018 +0100
+
+    Make sure not to perform a recursive call to RebuildSupportGrahp()
