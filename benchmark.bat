@@ -13,6 +13,12 @@ call :benchmark %1 %2 %3\seq -n
 call :benchmark %1 %2 %3\par
 call :benchmark %1 %2 %3\par-local -l
 
+:: Arrays
+call git checkout origin/fbie/cell-array-transformation
+call :benchmark %1 %2 %3\seq-array-seq -n -w
+call :benchmark %1 %2 %3\seq-array-par -n -w -p
+call :benchmark %1 %2 %3\par-array-par -w -p
+
 exit /b
 
 :help
