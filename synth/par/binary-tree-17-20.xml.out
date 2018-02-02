@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe minimal 5 "C:\Users\fbie\src\funcalc-examples\synth\binary-tree-17-20.xml" 
+#benchmark:minimal iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\binary-tree-17-20.xml cores:32
+minimal   	31018,6836ms	1
+minimal   	27904,0087ms	2
+minimal   	29107,2723ms	3
+minimal   	30584,5791ms	4
+minimal   	27455,2860ms	5

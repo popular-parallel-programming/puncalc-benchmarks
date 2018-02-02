@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe minimal 5 "C:\Users\fbie\src\funcalc-examples\synth\fork-400-400-20.xml" 
+#benchmark:minimal iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\fork-400-400-20.xml cores:32
+minimal   	78652,8659ms	1
+minimal   	112208,2368ms	2
+minimal   	131463,3132ms	3
+minimal   	141935,2726ms	4
+minimal   	134801,4777ms	5

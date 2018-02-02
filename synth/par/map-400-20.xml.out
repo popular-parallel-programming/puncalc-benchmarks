@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe minimal 5 "C:\Users\fbie\src\funcalc-examples\synth\map-400-20.xml" 
+#benchmark:minimal iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\map-400-20.xml cores:32
+minimal   	34107,6807ms	1
+minimal   	36545,3715ms	2
+minimal   	37454,1727ms	3
+minimal   	34426,3797ms	4
+minimal   	36280,6834ms	5

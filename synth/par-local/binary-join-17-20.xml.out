@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe minimal 5 "C:\Users\fbie\src\funcalc-examples\synth\binary-join-17-20.xml" 
+#benchmark:minimal iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\binary-join-17-20.xml cores:32
+minimal   	43916,3232ms	1
+minimal   	48509,5474ms	2
+minimal   	46276,7282ms	3
+minimal   	45277,8362ms	4
+minimal   	45958,8779ms	5
