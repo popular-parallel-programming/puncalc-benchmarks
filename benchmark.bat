@@ -45,7 +45,7 @@ call build -r %flags% >> %log%\build.log 2>&1
 :: Benchmark Funcalc for each sheet.
 for /r %files% %%I in (*.xml) do (
     echo Benchmarking %%I
-    call funcalc -r roots %n% "%%I" 1> "%log%\%%~nxI.out" 2> "%log%\%%~nxI.err"
+    call funcalc -r minimal %n% "%%I" 1> "%log%\%%~nxI.out" 2> "%log%\%%~nxI.err"
 )
 
 echo Done!
