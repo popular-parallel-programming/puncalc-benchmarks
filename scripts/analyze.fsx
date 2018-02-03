@@ -4,10 +4,12 @@ open System.Text.RegularExpressions
 [<Measure>] type ms
 let asMilliseconds v = v * 1.0<ms>
 
+
 // Read a single data line.
 let parseLine line =
     let m = Regex.Match (line, "(\\d+\\,\\d+)ms")
     if m.Success then Some (float >> asMilliseconds <| m.Value.Replace(",", ".").Replace("ms", "")) else None
+
 
 // Read a whole file and return the measured time in milliseconds
 let readFile =
@@ -16,11 +18,13 @@ let readFile =
      >> Seq.choose id
      >> Seq.toList
 
+
 // Read all output files in a directory
 let readFiles path =
     Directory.EnumerateFiles (path, "*.out")
     |> Seq.map (fun f -> Path.GetFileNameWithoutExtension f, readFile f)
     |> Seq.toList
+
 
 // Compute mean and standard deviation
 let sdev xs =
@@ -28,6 +32,7 @@ let sdev xs =
     let mean = List.average xs
     let sst  = List.map (fun x -> x * x) >> List.sum <| xs
     float <| sqrt ((sst - mean * mean * n) / (n - 1.0))
+
 
 // Compare a baseline result to another result.
 let compare baseline other =
@@ -44,12 +49,41 @@ let compare baseline other =
     |> List.choose id
 
 
-match fsi.CommandLineArgs with
-    | [| _; baseline; other|] ->
-        printfn "# Speedup of %s over %s:" other baseline
-        for result in compare baseline other do
-            printfn "%-30s %10f %10f" <||| result
-        0
-    | _ ->
-        printfn "Usage: > fsi analyze.fsx path/to/baseline/folder path/to/other/folder";
-        1
+// Print results as plain data list.
+let printPlain results =
+    for result in results do
+        printfn "%-30s %10f %10f" <||| result
+
+
+// Print results as fancy text
+let printFancy header bar results =
+    printfn header
+    printfn bar
+    for result in results do
+        printfn "| %-30s | %10f | %10f |" <||| result
+
+let printMarkdown = printFancy "| Sheet | Speed up | StDev |" "|:------|---------:|------:|"
+let printOrg      = printFancy "| Sheet | Speed up | StDev |" "|-------+----------+-------|"
+
+
+let main args =
+    let baseline = Array.tryItem 1 args
+    let other    = Array.tryItem 2 args
+    let format   = Array.tryItem 3 args
+
+    match baseline, other with
+        | Some baseline, Some other ->
+            let writer = (match format with
+                          | Some "md"  -> printMarkdown
+                          | Some "org" -> printOrg
+                          | _          -> printPlain)
+            printfn "# Speedup of %s over %s:" other baseline
+            writer <| compare baseline other
+            0
+
+        | _ ->
+            printfn "Usage: > fsi analyze.fsx path/to/baseline/folder path/to/other/folder [md | org]";
+            1
+
+
+main fsi.CommandLineArgs
