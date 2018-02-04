@@ -1,13 +1,8 @@
 
-C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-examples\synth\prefix-1000-11.xml" 
-#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-examples\synth\prefix-1000-11.xml cores:32
-roots     	21746,9365ms	1
-roots     	12656,2526ms	2
-roots     	12775,4177ms	3
-roots     	12811,0140ms	4
-roots     	12883,5831ms	5
-roots     	12661,2570ms	6
-roots     	12687,0412ms	7
-roots     	12715,0566ms	8
-roots     	12856,3426ms	9
-roots     	12753,4438ms	10
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 "C:\Users\fbie\src\funcalc-examples\synth\prefix-1000-11.xml" 
+#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\prefix-1000-11.xml cores:32
+roots     	14835,2239ms	1
+roots     	14604,5433ms	2
+roots     	14640,3872ms	3
+roots     	14833,9155ms	4
+roots     	14724,0441ms	5

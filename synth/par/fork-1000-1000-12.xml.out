@@ -1,13 +1,8 @@
 
-C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\fbie\src\funcalc-examples\synth\fork-1000-1000-12.xml" 
-#benchmark:roots iterations:10 file:C:\Users\fbie\src\funcalc-examples\synth\fork-1000-1000-12.xml cores:32
-roots     	 4816,1041ms	1
-roots     	 4812,0069ms	2
-roots     	 4921,3649ms	3
-roots     	 4951,1689ms	4
-roots     	 4780,3761ms	5
-roots     	 4882,5161ms	6
-roots     	 5015,9583ms	7
-roots     	 4966,6121ms	8
-roots     	 4871,2339ms	9
-roots     	 4788,3692ms	10
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 "C:\Users\fbie\src\funcalc-examples\synth\fork-1000-1000-12.xml" 
+#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\fork-1000-1000-12.xml cores:32
+roots     	 4803,0151ms	1
+roots     	 4742,5479ms	2
+roots     	 4771,3454ms	3
+roots     	 4888,6534ms	4
+roots     	 4728,5883ms	5
