@@ -7,7 +7,7 @@ let asMilliseconds v = v * 1.0<ms>
 
 // Read a single data line.
 let parseLine line =
-    let m = Regex.Match (line, "(\\d+\\,\\d+)ms")
+    let m = Regex.Match (line, "(\\d+[,.]\\d+)ms")
     if m.Success then Some (float >> asMilliseconds <| m.Value.Replace(",", ".").Replace("ms", "")) else None
 
 
