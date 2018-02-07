@@ -1,0 +1,13 @@
+
+C:\Users\Malthe\Documents\Projects\funcalc2>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\stock_history.xml" 
+#benchmark:roots iterations:10 file:C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\stock_history.xml cores:8
+roots     	61490.9921ms	1
+roots     	61541.4565ms	2
+roots     	61047.8778ms	3
+roots     	60462.3964ms	4
+roots     	59249.4099ms	5
+roots     	59170.0027ms	6
+roots     	59342.3865ms	7
+roots     	59140.9038ms	8
+roots     	59395.1705ms	9
+roots     	59197.6699ms	10

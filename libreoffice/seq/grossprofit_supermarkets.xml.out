@@ -1,0 +1,13 @@
+
+C:\Users\Malthe\Documents\Projects\funcalc2>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\grossprofit_supermarkets.xml" 
+#benchmark:roots iterations:10 file:C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\grossprofit_supermarkets.xml cores:8
+roots     	110394.0364ms	1
+roots     	110689.4410ms	2
+roots     	110153.7375ms	3
+roots     	110443.5487ms	4
+roots     	110203.1001ms	5
+roots     	110425.9619ms	6
+roots     	110451.4991ms	7
+roots     	110388.7919ms	8
+roots     	110298.5825ms	9
+roots     	110462.0691ms	10

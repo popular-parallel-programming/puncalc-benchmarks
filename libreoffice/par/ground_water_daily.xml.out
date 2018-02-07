@@ -1,0 +1,13 @@
+
+C:\Users\Malthe\Documents\Projects\funcalc2>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\ground_water_daily.xml" 
+#benchmark:roots iterations:10 file:C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\ground_water_daily.xml cores:8
+roots     	30272.5539ms	1
+roots     	30131.3732ms	2
+roots     	30278.4485ms	3
+roots     	30177.1316ms	4
+roots     	30214.2107ms	5
+roots     	30030.7127ms	6
+roots     	30162.1177ms	7
+roots     	30014.6594ms	8
+roots     	30214.2201ms	9
+roots     	30026.4054ms	10

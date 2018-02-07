@@ -1,0 +1,13 @@
+
+C:\Users\Malthe\Documents\Projects\funcalc2>Funcalc.App\bin\Release\Funcalc.App.exe roots 10 "C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml" 
+#benchmark:roots iterations:10 file:C:\Users\Malthe\Documents\Projects\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml cores:8
+roots     	65186.8218ms	1
+roots     	64444.0070ms	2
+roots     	64330.3320ms	3
+roots     	64473.4538ms	4
+roots     	64367.5189ms	5
+roots     	64574.0194ms	6
+roots     	64711.0009ms	7
+roots     	64643.9102ms	8
+roots     	64599.0784ms	9
+roots     	64665.7796ms	10
