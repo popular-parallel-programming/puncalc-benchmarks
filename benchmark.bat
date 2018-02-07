@@ -3,7 +3,7 @@ if "%1" == "" goto :help
 if "%2" == "" goto :help
 if "%3" == "" goto :help
 
-call git checkout origin/parallel
+call git checkout origin/parallel-stable
 
 :: Sequential
 call :benchmark %1 %2 %3\seq -n
