@@ -6,16 +6,32 @@ if "%3" == "" goto :help
 call git checkout origin/parallel-stable
 
 :: Sequential
-call :benchmark %1 %2 %3\seq -n
-::call :benchmark %1 %2 %3\seq-local -n -l
+call :benchmark %1 %2  0 %3\seq -n
 
 :: Parallel
-call :benchmark %1 %2 %3\par
-call :benchmark %1 %2 %3\par-local -l
+call :benchmark %1 %2  2 %3\par
+call :benchmark %1 %2  4 %3\par
+call :benchmark %1 %2  8 %3\par
+call :benchmark %1 %2 16 %3\par
+call :benchmark %1 %2 32 %3\par
+call :benchmark %1 %2 48 %3\par
+
+:: Parallel with thread local
+call :benchmark %1 %2  2 %3\par-local -l
+call :benchmark %1 %2  4 %3\par-local -l
+call :benchmark %1 %2  8 %3\par-local -l
+call :benchmark %1 %2 16 %3\par-local -l
+call :benchmark %1 %2 32 %3\par-local -l
+call :benchmark %1 %2 48 %3\par-local -l
 
 exit /b
 
 :help
+echo Script to run Puncalc benchmarks. It will automatically benchmark each sheet
+echo  - sequentially, as a baseline;
+echo  - in parallel up to 48 cores; and
+echo  - in parallel with thread-local optimizations up to 48 cores.
+echo.
 echo Usage:
 echo   benchmark.bat path\to\sheets iterations path\to\logs
 echo.
@@ -31,8 +47,9 @@ exit /b
 setlocal
 set files=%1
 set n=%2
-set log=%3
-shift /3
+set cores=%3
+set log=%4
+shift /4
 set flags=%*
 mkdir %log%
 
@@ -45,7 +62,7 @@ call build -r %flags% >> %log%\build.log 2>&1
 :: Benchmark Funcalc for each sheet.
 for /r %files% %%I in (*.xml) do (
     echo Benchmarking %%I
-    call funcalc -r roots %n% "%%I" 1> "%log%\%%~nxI.out" 2> "%log%\%%~nxI.err"
+    call funcalc -r roots %n% %cores% "%%I" 1> "%log%\%cores%\%%~nxI.out" 2> "%log%\%cores%\%%~nxI.err"
 )
 
 echo Done!
