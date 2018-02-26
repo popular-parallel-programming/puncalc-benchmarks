@@ -41,18 +41,24 @@ let compare baseline other =
     baselineMeans
     |> List.map (fun (name, bm) ->
                  let _, ors = List.find (fst >> (=) name) otherResults in
-                 match ors with
-                 | [] -> None
-                 | ors -> Some (name,
-                                bm / List.average ors,
-                                sdev <| List.map (fun x -> bm / x) ors))
+                 (match ors with
+                  | [] -> None
+                  | ors ->
+                        let om = List.average ors in
+                        Some (name,
+                              om,
+                              sdev <| List.map (fun x -> om / x) ors,
+                              bm / om,
+                              sdev <| List.map (fun x -> bm / x) ors)))
     |> List.choose id
 
+
+let unpack (name, ms, ms_sdev, speedup, speedup_sdev) f = f name (ms / 1.0<ms>) ms_sdev speedup speedup_sdev
 
 // Print results as plain data list.
 let printPlain results =
     for result in results do
-        printfn "%-30s %10f %10f" <||| result
+        printfn "%-30s %10f ±%10f %10f ±%10f" |> unpack result
 
 
 // Print results as fancy text
@@ -60,10 +66,12 @@ let printFancy header bar results =
     printfn header
     printfn bar
     for result in results do
-        printfn "| %-30s | %10f | %10f |" <||| result
+        printfn "| %-30s | %10f | %10f | %10f | %10f |" |> unpack result
 
-let printMarkdown = printFancy "| Sheet | Speed up | StDev |" "|:------|---------:|------:|"
-let printOrg      = printFancy "| Sheet | Speed up | StDev |" "|-------+----------+-------|"
+let printMarkdown = printFancy "| Sheet | MS | StDev | Speed up | StDev |"
+                               "|:------|---:|------:|---------:|------:|"
+let printOrg      = printFancy "| Sheet | MS | StDev | Speed up | StDev |"
+                               "|-------+----+-------+----------+-------|"
 
 
 let main args =
