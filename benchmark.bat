@@ -53,7 +53,7 @@ set cores=%3
 set log=%4
 shift /4
 set flags=%*
-mkdir %log%
+mkdir %log%\%cores%
 
 :: Log build events
 echo Building...
