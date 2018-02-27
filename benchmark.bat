@@ -12,6 +12,7 @@ call :benchmark %1 %2  0 %3\seq -n
 call :benchmark %1 %2  2 %3\par
 call :benchmark %1 %2  4 %3\par
 call :benchmark %1 %2  8 %3\par
+call :benchmark %1 %2 12 %3\par
 call :benchmark %1 %2 16 %3\par
 call :benchmark %1 %2 32 %3\par
 call :benchmark %1 %2 48 %3\par
@@ -20,6 +21,7 @@ call :benchmark %1 %2 48 %3\par
 call :benchmark %1 %2  2 %3\par-local -l
 call :benchmark %1 %2  4 %3\par-local -l
 call :benchmark %1 %2  8 %3\par-local -l
+call :benchmark %1 %2 12 %3\par-local -l
 call :benchmark %1 %2 16 %3\par-local -l
 call :benchmark %1 %2 32 %3\par-local -l
 call :benchmark %1 %2 48 %3\par-local -l
