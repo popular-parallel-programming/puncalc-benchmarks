@@ -61,6 +61,8 @@ git show -q           >  %log%\git.log
 call build -c         >  %log%\build.log 2>&1
 call build -r %flags% >> %log%\build.log 2>&1
 
+echo Running %n% iterations on %cores% cores, logging to %log%:
+
 :: Benchmark Funcalc for each sheet.
 for /r %files% %%I in (*.xml) do (
     echo Benchmarking %%I
