@@ -1,5 +1,0 @@
-commit 8575f2714eae0e92e5f9ebd56cabe880dc503c0a
-Author: Florian Biermann <fbie@itu.dk>
-Date:   Thu Nov 30 16:31:32 2017 +0100
-
-    Use non-concurrent queue when compiling with NOPARALLEL
