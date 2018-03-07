@@ -3,6 +3,8 @@ if "%1" == "" goto :help
 if "%2" == "" goto :help
 if "%3" == "" goto :help
 
+echo Started %time% %date%.
+
 call git checkout origin/parallel-stable
 
 :: Sequential
@@ -25,6 +27,8 @@ call :benchmark %1 %2 12 %3\par-local -l
 call :benchmark %1 %2 16 %3\par-local -l
 call :benchmark %1 %2 32 %3\par-local -l
 call :benchmark %1 %2 48 %3\par-local -l
+
+echo Finished %time% %date%.
 
 exit /b
 
