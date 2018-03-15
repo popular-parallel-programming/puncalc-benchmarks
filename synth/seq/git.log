@@ -1,5 +1,8 @@
-commit 7723c3e371716e040be6879c74c55820215593de
-Author: blaavogn <holger.stadel.borum@gmail.com>
-Date:   Wed Jan 31 12:06:03 2018 +0100
+commit 60f5a4076d15868521f21e7079d482f9fca91243
+Author: MisanthropicBit <alexander.asp.bock@gmail.com>
+Date:   Tue Feb 27 13:10:29 2018 +0100
 
-    Make fullRecalculate not use supportSet
+    New command line argument for limiting a process' access to cores (#182)
+    
+    - add command line argument for limiting a process' access to cores
+    - do not prefer 32 bit binaries (no need for sensible defaults, Microsoft)

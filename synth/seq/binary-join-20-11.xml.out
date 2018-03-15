@@ -1,8 +1,0 @@
-
-C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 "C:\Users\fbie\src\funcalc-examples\synth\binary-join-20-11.xml" 
-#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\binary-join-20-11.xml cores:32
-roots     	11131,2730ms	1
-roots     	10996,1221ms	2
-roots     	10982,7615ms	3
-roots     	11011,1259ms	4
-roots     	10965,2085ms	5

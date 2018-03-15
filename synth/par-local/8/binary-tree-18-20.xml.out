@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 8 "C:\Users\fbie\src\funcalc-examples\synth\binary-tree-18-20.xml" 
+#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\binary-tree-18-20.xml cores:48 max processors:8
+roots     	72874,5001ms	1
+roots     	72851,7534ms	2
+roots     	72803,1110ms	3
+roots     	72826,6132ms	4
+roots     	72782,3150ms	5

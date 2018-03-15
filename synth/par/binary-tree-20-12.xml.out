@@ -1,8 +1,0 @@
-
-C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 "C:\Users\fbie\src\funcalc-examples\synth\binary-tree-20-12.xml" 
-#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\binary-tree-20-12.xml cores:32
-roots     	 5946,5188ms	1
-roots     	 6031,8667ms	2
-roots     	 5976,3208ms	3
-roots     	 5950,5411ms	4
-roots     	 5950,8391ms	5
