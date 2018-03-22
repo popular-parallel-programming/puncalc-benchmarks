@@ -1,8 +1,6 @@
-commit 60f5a4076d15868521f21e7079d482f9fca91243
-Author: MisanthropicBit <alexander.asp.bock@gmail.com>
-Date:   Tue Feb 27 13:10:29 2018 +0100
+commit 6bc3a1818d02e7e1e45df5d188a38e73c65893bb
+Merge: 10c547f 60f5a40
+Author: Florian Biermann <fbie@itu.dk>
+Date:   Fri Mar 16 10:39:23 2018 +0100
 
-    New command line argument for limiting a process' access to cores (#182)
-    
-    - add command line argument for limiting a process' access to cores
-    - do not prefer 32 bit binaries (no need for sensible defaults, Microsoft)
+    Merge branch 'parallel-stable' into parallel

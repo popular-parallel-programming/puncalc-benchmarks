@@ -1,2 +1,4 @@
 Rebuilding support graph
-Read XMLSS, 300304 cells of which 7 unique in 1971 ms
+Read XMLSS, 300304 cells of which 7 unique in 1855 ms
+
+Process is terminated due to StackOverflowException.

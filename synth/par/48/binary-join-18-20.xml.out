@@ -1,8 +1,8 @@
 
 C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 48 "C:\Users\fbie\src\funcalc-examples\synth\binary-join-18-20.xml" 
 #benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\binary-join-18-20.xml cores:48 max processors:48
-roots     	60763,3072ms	1
-roots     	60042,4840ms	2
-roots     	59052,5595ms	3
-roots     	59660,4756ms	4
-roots     	60266,3545ms	5
+roots     	59864,8285ms	1
+roots     	58217,9601ms	2
+roots     	59768,9855ms	3
+roots     	58647,1398ms	4
+roots     	59697,5399ms	5

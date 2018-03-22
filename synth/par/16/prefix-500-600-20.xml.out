@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 16 "C:\Users\fbie\src\funcalc-examples\synth\prefix-500-600-20.xml" 
+#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\prefix-500-600-20.xml cores:48 max processors:16
+roots     	116785,7809ms	1
+roots     	116815,4891ms	2
+roots     	118299,8062ms	3
+roots     	117366,0815ms	4
+roots     	117859,5547ms	5
