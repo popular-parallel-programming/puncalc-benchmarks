@@ -1,8 +1,8 @@
 
 C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 8 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\building_design.xml" 
 #benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\building_design.xml cores:48 max processors:8
-roots     	 9682,4899ms	1
-roots     	 9860,4332ms	2
-roots     	10077,2985ms	3
-roots     	 9927,4213ms	4
-roots     	10141,3404ms	5
+roots     	11141,5123ms	1
+roots     	11176,5972ms	2
+roots     	11332,1416ms	3
+roots     	11027,0823ms	4
+roots     	11122,0509ms	5

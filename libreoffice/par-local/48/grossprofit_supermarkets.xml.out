@@ -1,8 +1,8 @@
 
 C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 48 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\grossprofit_supermarkets.xml" 
 #benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\grossprofit_supermarkets.xml cores:48 max processors:48
-roots     	42128,7198ms	1
-roots     	43652,2216ms	2
-roots     	42837,1971ms	3
-roots     	43017,1936ms	4
-roots     	42643,9457ms	5
+roots     	40141,2590ms	1
+roots     	39274,7748ms	2
+roots     	39734,2458ms	3
+roots     	40839,0597ms	4
+roots     	40409,0649ms	5

@@ -1,8 +1,8 @@
 
 C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 2 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml" 
 #benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\energy_market_in_different_countries.xml cores:48 max processors:2
-roots     	304789,8257ms	1
-roots     	446337,1400ms	2
-roots     	432225,3890ms	3
-roots     	229895,0564ms	4
-roots     	303773,3718ms	5
+roots     	243807,8976ms	1
+roots     	244109,9097ms	2
+roots     	244832,1777ms	3
+roots     	243403,7779ms	4
+roots     	243274,1122ms	5

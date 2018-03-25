@@ -1,8 +1,8 @@
 
 C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 2 "C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\ground_water_daily.xml" 
 #benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\benchmarks\libreoffice_spreadsheets\ground_water_daily.xml cores:48 max processors:2
-roots     	107377,9095ms	1
-roots     	107318,7707ms	2
-roots     	104735,7279ms	3
-roots     	106811,8877ms	4
-roots     	109287,3373ms	5
+roots     	136082,4962ms	1
+roots     	136063,3658ms	2
+roots     	136247,5504ms	3
+roots     	136787,3731ms	4
+roots     	136963,4554ms	5
