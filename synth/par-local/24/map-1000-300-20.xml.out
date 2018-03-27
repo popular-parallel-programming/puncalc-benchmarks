@@ -1,0 +1,8 @@
+
+C:\Users\fbie\src\funcalc>Funcalc.App\bin\Release\Funcalc.App.exe roots 5 24 "C:\Users\fbie\src\funcalc-examples\synth\map-1000-300-20.xml" 
+#benchmark:roots iterations:5 file:C:\Users\fbie\src\funcalc-examples\synth\map-1000-300-20.xml cores:48 max processors:24
+roots     	49101,2672ms	1
+roots     	50006,4104ms	2
+roots     	50130,6585ms	3
+roots     	49945,0040ms	4
+roots     	51460,5448ms	5

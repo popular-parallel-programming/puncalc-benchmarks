@@ -3,7 +3,7 @@ C:\Users\fbie\src\funcalc>msbuild /property:Configuration=Debug /t:Clean /m
 Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 21-03-2018 21:56:13.
+Build started 27-03-2018 00:43:39.
      1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Clean target(s)).
      1>ValidateSolutionConfiguration:
          Building solution configuration "Debug|Any CPU".
@@ -13,91 +13,49 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.44
+Time Elapsed 00:00:01.37
 
 C:\Users\fbie\src\funcalc>msbuild /property:Configuration=Release /t:Clean /m 
 Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 21-03-2018 21:56:15.
+Build started 27-03-2018 00:43:41.
      1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Clean target(s)).
      1>ValidateSolutionConfiguration:
          Building solution configuration "Release|Any CPU".
-     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (2) on node 4 (Clean target(s)).
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (2) on node 3 (Clean target(s)).
      2>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.pdb".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csprojResolveAssemblyReference.cache".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csproj.CoreCompileInputs.cache".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.dll".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.pdb".
-     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (4) on node 3 (Clean target(s)).
-     4>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.dll".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.pdb".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.Corecalc.dll".
-     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (3) on node 6 (Clean target(s)).
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (3) on node 2 (Clean target(s)).
      3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll".
-     4>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.dll".
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.pdb".
-     4>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.Corecalc.pdb".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.pdb".
-     2>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (Clean target(s)).
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.Corecalc.dll".
-     4>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csprojResolveAssemblyReference.cache".
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csproj.CoreCompileInputs.cache".
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.Corecalc.pdb".
-     4>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.dll".
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csprojResolveAssemblyReference.cache".
-     4>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.pdb".
-     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (5) on node 5 (Clean target(s)).
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll".
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csproj.CoreCompileInputs.cache".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb".
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.dll".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Externals.dll".
-     3>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.pdb".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Externals.pdb".
-     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (6) on node 2 (Clean target(s)).
-     6>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.dll".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csprojResolveAssemblyReference.cache".
-     6>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.GUI.pdb".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csproj.CoreCompileInputs.cache".
-     6>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\ClrTest.Reflection.ILReader.dll".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.dll".
-     6>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\ClrTest.Reflection.ILVisualizer.dll".
-     5>CoreClean:
-         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.pdb".
-     6>CoreClean:
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (4) on node 4 (Clean target(s)).
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.dll".
+     3>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.Corecalc.dll".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\bin\Release\external\Funcalc.Externals.pdb".
+     3>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.dll".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csprojResolveAssemblyReference.cache".
+     3>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.IO.dll".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.csproj.CoreCompileInputs.cache".
+     3>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.Corecalc.pdb".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.dll".
+     3>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.IO.pdb".
+     4>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Externals\obj\Release\Funcalc.Externals.pdb".
+     3>CoreClean:
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\bin\Release\Funcalc.pdb".
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.csprojResolveAssemblyReference.cache".
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.AboutBox.resources".
@@ -107,6 +65,56 @@ Build started 21-03-2018 21:56:15.
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.csproj.CoreCompileInputs.cache".
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.dll".
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.GUI\obj\Release\Funcalc.GUI.pdb".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (5) on node 5 (Clean target(s)).
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Corecalc.pdb".
+     4>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (Clean target(s)).
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Externals.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.IO.pdb".
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\bin\Release\Funcalc.Externals.pdb".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.Corecalc.dll".
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csprojResolveAssemblyReference.cache".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.dll".
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.csproj.CoreCompileInputs.cache".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.Corecalc.pdb".
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.dll".
+     1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (6) on node 6 (Clean target(s)).
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.dll".
+     5>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\obj\Release\Funcalc.Corecalc.pdb".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\bin\Release\Funcalc.pdb".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.pdb".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csprojResolveAssemblyReference.cache".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.Corecalc.dll".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.csproj.CoreCompileInputs.cache".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\bin\Release\Funcalc.Corecalc.pdb".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csprojResolveAssemblyReference.cache".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.dll".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.csproj.CoreCompileInputs.cache".
+     2>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc.IO\obj\Release\Funcalc.IO.pdb".
+     6>CoreClean:
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.dll".
+         Deleting file "C:\Users\fbie\src\funcalc\Funcalc\obj\Release\Funcalc.pdb".
      5>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (Clean target(s)).
      1>Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc.App\Funcalc.App.csproj" (7) on node 1 (Clean target(s)).
      7>CoreClean:
@@ -127,9 +135,9 @@ Build started 21-03-2018 21:56:15.
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.csproj.CoreCompileInputs.cache".
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.exe".
          Deleting file "C:\Users\fbie\src\funcalc\Funcalc.App\obj\Release\Funcalc.App.pdb".
-     3>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (Clean target(s)).
-     4>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (Clean target(s)).
-     6>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (Clean target(s)).
+     6>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (Clean target(s)).
+     2>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.IO\Funcalc.IO.csproj" (Clean target(s)).
+     3>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.GUI\Funcalc.GUI.csproj" (Clean target(s)).
      7>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.App\Funcalc.App.csproj" (Clean target(s)).
      1>Done Building Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (Clean target(s)).
 
@@ -137,20 +145,22 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.43
+Time Elapsed 00:00:00.48
 
 C:\Users\fbie\src\funcalc>call %command% 
 Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
 Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
-Build started 21-03-2018 21:56:15.
+Build started 27-03-2018 00:43:41.
 Project "C:\Users\fbie\src\funcalc\Funcalc.sln" on node 1 (Rebuild target(s)).
 ValidateSolutionConfiguration:
   Building solution configuration "Release|Any CPU".
 Project "C:\Users\fbie\src\funcalc\Funcalc.sln" (1) is building "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (2) on node 1 (Rebuild target(s)).
 Project "C:\Users\fbie\src\funcalc\Funcalc\Funcalc.csproj" (2) is building "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (3:3) on node 1 (default targets).
 Project "C:\Users\fbie\src\funcalc\Funcalc.Corecalc\Funcalc.Corecalc.csproj" (3:3) is building "C:\Users\fbie\src\funcalc\Funcalc.Externals\Funcalc.Externals.csproj" (4:3) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
 CoreCompile:
   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;LOCAL /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.Xml.Linq.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\Funcalc.Externals.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7.1 Properties\AssemblyInfo.cs TestExtern.cs "C:\Users\fbie\AppData\Local\Temp\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
   Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn
@@ -274,7 +284,7 @@ Build succeeded.
     2 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.39
+Time Elapsed 00:00:03.41
 
 msbuild /p:Configuration=Release /p:Constants="LOCAL;" /t:Rebuild /m:1
 
